@@ -7,12 +7,17 @@ from datetime import datetime
 import csv
 from io import StringIO
 from flask import Response
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = '6526c6982281z781FZ1t847h1x8u7427ubko2982c7t84rg31'
 bcrypt = Bcrypt(app)
 
-client = MongoClient("mongodb://localhost:27017/")
+app.secret_key = os.getenv('SECRET_KEY')
+client = MongoClient(os.getenv('MONGO_URI'))
+
 db = client['expense_tracker']
 users_collection = db['users']
 expenses_collection = db['expenses']
