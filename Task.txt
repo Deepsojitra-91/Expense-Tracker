@@ -1,0 +1,7 @@
+User Authentication (Sign Up / Login)                   
+Add, Edit, Delete Expense Entries                       
+Categorize Expenses (e.g., Food, Transport)             
+View Expense History                                    
+Generate Basic Expense Summary (e.g., Monthly Total)               
+CSV Export of Expenses                                  
+Search/Filter Expenses by Category/Date                 
