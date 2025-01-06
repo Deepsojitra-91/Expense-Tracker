@@ -95,7 +95,7 @@ Manage all your expenses in one place:
 ## Contact
 
 <p align="center">
-    Your Name<br>
+    Deep Sojitra<br>
     <a href="https://www.linkedin.com/in/deepsojitra91">LinkedIn</a> •
     <a href="mailto:deepsojitra336@gmail.com">Email</a>
 </p>
