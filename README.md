@@ -11,7 +11,7 @@
     <a href="#contact">Contact</a>
 </p>
 
-![Dashboard Preview](screenshots/dashboard.png)
+![Dashboard Preview](Screenshots/Dashborad.png)
 
 ## About
 
@@ -60,14 +60,14 @@ Expense Tracker is a modern web application designed to help users manage their 
 ## Usage
 
 ### Dashboard Overview
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](Screenshots/Dashborad.png)
 The dashboard provides a quick overview of your financial status, including:
 - Current balance
 - Monthly expense summary
 - Quick income addition form
 
 ### Adding Expenses
-![Add Expense](screenshots/add_expense.png)
+![Add Expense](Screenshots/Add_Expense.png)
 Easily add new expenses with:
 - Category selection
 - Amount input
@@ -75,7 +75,7 @@ Easily add new expenses with:
 - Date picker
 
 ### Expense Management
-![View Expenses](screenshots/view_expenses.png)
+![View Expenses](Screenshots/View_Expense.png)
 Manage all your expenses in one place:
 - Filter by categories
 - Edit existing entries
