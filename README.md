@@ -112,7 +112,7 @@ Manage all your expenses in one place:
 
 <p align="center">
     Your Name<br>
-    <a href="[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/deepsojitra91)">LinkedIn</a> •
+    <a href="https://www.linkedin.com/in/deepsojitra91">LinkedIn</a> •
     <a href="mailto:deepsojitra336@gmail.com">Email</a>
 </p>
 
