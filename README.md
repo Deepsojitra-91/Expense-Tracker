@@ -1,13 +1,12 @@
 <h1 align="center">Expense Tracker</h1>
 
-<h4 align="center">A comprehensive expense tracking web application built with <a href="https://flask.palletsprojects.com/" target="_blank">Flask</a> and <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.</h4>
+<h4 align="center">A comprehensive expense tracking web application built with <a href="https://flask.palletsprojects.com/" target="_blank">Flask</a>,<a href="https://www.python.org/" target="_blank">Python</a>.</h4>
 
 <p align="center">
     <a href="#about">About</a> •
     <a href="#features">Features</a> •
     <a href="#technologies">Technologies</a> •
     <a href="#usage">Usage</a> •
-    <a href="#screenshots">Screenshots</a> •
     <a href="#acknowledgments">Acknowledgments</a> •
     <a href="#contact">Contact</a>
 </p>
@@ -82,21 +81,6 @@ Manage all your expenses in one place:
 - Edit existing entries
 - Delete unwanted records
 
-## Screenshots
-
-<div align="center">
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Dashboard View*
-
-![Screenshot 2](screenshots/screenshot2.png)
-*Expense Management*
-
-![Screenshot 3](screenshots/screenshot3.png)
-*Category Filtering*
-
-</div>
-
 ## Acknowledgments
 
 <p align="center">Built with the following technologies and tools:</p>
@@ -112,10 +96,10 @@ Manage all your expenses in one place:
 
 <p align="center">
     Your Name<br>
-    <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> •
-    <a href="mailto:your.email@example.com">Email</a>
+    <a href="https://www.linkedin.com/in/deepsojitra91">LinkedIn</a> •
+    <a href="mailto:deepsojitra336@gmail.com">Email</a>
 </p>
 
 <p align="center">
-    Made with ❤️ by <a href="https://github.com/yourusername">Your Name</a>
+    Made with ❤️ by <a href="https://github.com/Deepsojitra-91">Deep Sojitra</a>
 </p>
