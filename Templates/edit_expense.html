@@ -6,39 +6,52 @@
 
 {% block content %}
 <div class="max-w-md mx-auto">
-    <form method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <form method="POST" class="bg-white shadow-xl rounded-lg px-8 pt-6 pb-8 mb-4">
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="category">
                 Category
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category" name="category" type="text" value="{{ expense.category }}" required>
+            <div class="relative">
+                <i class="ri-price-tag-3-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="category" name="category" type="text" value="{{ expense.category }}" required>
+            </div>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
                 Amount
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="amount" name="amount" type="number" step="0.01" value="{{ expense.amount }}" required>
+            <div class="relative">
+                <i class="ri-money-dollar-circle-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="amount" name="amount" type="number" step="0.01" value="{{ expense.amount }}" required>
+            </div>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="description">
                 Description
             </label>
-            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="description" name="description" required>{{ expense.description }}</textarea>
+            <div class="relative">
+                <i class="ri-text absolute left-3 top-3 text-gray-400"></i>
+                <textarea class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="description" name="description" rows="3" required>{{ expense.description }}</textarea>
+            </div>
         </div>
         <div class="mb-6">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
                 Date
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="date" name="date" type="date" value="{{ expense.date }}" required>
+            <div class="relative">
+                <i class="ri-calendar-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="date" name="date" type="date" value="{{ expense.date }}" required>
+            </div>
         </div>
         <div class="flex items-center justify-between">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+            <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" type="submit">
                 Update Expense
             </button>
-            <a href="{{ url_for('view_expenses') }}" class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800">
+            <a href="/view-expenses" class="inline-block align-baseline font-bold text-sm text-indigo-600 hover:text-indigo-800">
                 Cancel
             </a>
         </div>
     </form>
 </div>
 {% endblock %}
+

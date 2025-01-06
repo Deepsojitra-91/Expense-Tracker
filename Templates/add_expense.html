@@ -6,36 +6,49 @@
 
 {% block content %}
 <div class="max-w-md mx-auto">
-    <form method="POST" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+    <form method="POST" class="bg-white shadow-xl rounded-lg px-8 pt-6 pb-8 mb-4">
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="category">
                 Category
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="category" name="category" type="text" placeholder="Category" required>
+            <div class="relative">
+                <i class="ri-price-tag-3-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="category" name="category" type="text" placeholder="e.g., Food, Transportation" required>
+            </div>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="amount">
                 Amount
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="amount" name="amount" type="number" step="0.01" placeholder="Amount" required>
+            <div class="relative">
+                <i class="ri-money-dollar-circle-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="amount" name="amount" type="number" step="0.01" placeholder="0.00" required>
+            </div>
         </div>
         <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="description">
                 Description
             </label>
-            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="description" name="description" placeholder="Description" required></textarea>
+            <div class="relative">
+                <i class="ri-text absolute left-3 top-3 text-gray-400"></i>
+                <textarea class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="description" name="description" rows="3" placeholder="Enter a brief description" required></textarea>
+            </div>
         </div>
         <div class="mb-6">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
                 Date
             </label>
-            <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="date" name="date" type="date" required>
+            <div class="relative">
+                <i class="ri-calendar-line absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                <input class="appearance-none border rounded w-full py-2 px-3 pl-10 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-indigo-500" id="date" name="date" type="date" required>
+            </div>
         </div>
         <div class="flex items-center justify-between">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+            <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-150 ease-in-out" type="submit">
                 Add Expense
             </button>
         </div>
     </form>
 </div>
 {% endblock %}
+
