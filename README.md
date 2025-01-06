@@ -7,7 +7,6 @@
     <a href="#features">Features</a> •
     <a href="#technologies">Technologies</a> •
     <a href="#usage">Usage</a> •
-    <a href="#screenshots">Screenshots</a> •
     <a href="#acknowledgments">Acknowledgments</a> •
     <a href="#contact">Contact</a>
 </p>
@@ -81,21 +80,6 @@ Manage all your expenses in one place:
 - Filter by categories
 - Edit existing entries
 - Delete unwanted records
-
-## Screenshots
-
-<div align="center">
-
-![Screenshot 1](screenshots/screenshot1.png)
-*Dashboard View*
-
-![Screenshot 2](screenshots/screenshot2.png)
-*Expense Management*
-
-![Screenshot 3](screenshots/screenshot3.png)
-*Category Filtering*
-
-</div>
 
 ## Acknowledgments
 
