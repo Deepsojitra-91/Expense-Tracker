@@ -82,10 +82,10 @@
                         {{ expense.date }}
                     </td>
                     <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <a href="/edit-expense/{{ expense._id }}" class="text-indigo-600 hover:text-indigo-900 mr-3">
+                        <a href="/edit_expense/{{ expense._id }}" class="text-indigo-600 hover:text-indigo-900 mr-3">
                             <i class="ri-edit-line"></i> Edit
                         </a>
-                        <a href="/delete-expense/{{ expense._id }}" class="text-red-600 hover:text-red-900" onclick="return confirm('Are you sure you want to delete this expense?')">
+                        <a href="/delete_expense/{{ expense._id }}" class="text-red-600 hover:text-red-900" onclick="return confirm('Are you sure you want to delete this expense?')">
                             <i class="ri-delete-bin-line"></i> Delete
                         </a>
                     </td>
