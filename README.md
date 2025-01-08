@@ -11,7 +11,7 @@
     <a href="#contact">Contact</a>
 </p>
 
-![Dashboard Preview](Screenshots/Dashborad.png)
+![Dashboard Preview](Screenshots/Dashboard.png)
 
 ## About
 
@@ -60,7 +60,7 @@ Expense Tracker is a modern web application designed to help users manage their 
 ## Usage
 
 ### Dashboard Overview
-![Dashboard](Screenshots/Dashborad.png)
+![Dashboard](Screenshots/Dashboard.png)
 The dashboard provides a quick overview of your financial status, including:
 - Current balance
 - Monthly expense summary
